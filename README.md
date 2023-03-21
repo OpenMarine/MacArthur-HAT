@@ -2,7 +2,7 @@
 
 > __Note__
 >
-> Kicad files will be released when the board is in production.
+> KiCad files will be released when the board is in production.
 
 ![MacArthur-HAT](images/macarthur-render.jpg)
 
