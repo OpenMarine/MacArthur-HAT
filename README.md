@@ -28,10 +28,10 @@ MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.rea
 - 1x Seatalk1 opto-isolated input. This connector can be also used as an isolated general-purpose input.
 - 1x Connector for multiple 1-Wire temperature sensors such as the DS18B20 (exhaust, engine, fridge...). A 4.7KΩ pull-up resistor is included. This connector can be also used as a non-isolated general-purpose input/output.
 - 1x STEMMA QT/Qwiic connector for multiple I2C sensors (IMU, temperature, pressure, humidity, gas...). Compatible with most Adafruit and SparkFun sensors.
-- Optional 12V to 5V DC/DC converter via add-on module [1] to power the Raspberry Pi and its peripherals (including touch screens up to 10 inches). When you turn off the main switch of your ship, OpenPlotter will shut down safely. OpenPlotter will start cleanly when the main switch is turned on again.
-- Optional GPS reception and AIS reception/transmission with the MAIANA AIS base kit [2]. The MacArthur HAT has all the features of all MAIANA AIS adapters in one. Data connection by UART0.
+- Optional 12V to 5V DC/DC converter via [add-on module](https://shop.openmarine.net/home/24-power-module-for-macarthur-hat.html) to power the Raspberry Pi and its peripherals (including touch screens up to 10 inches). When you turn off the main switch of your ship, OpenPlotter will shut down safely. OpenPlotter will start cleanly when the main switch is turned on again.
+- Optional GPS reception and AIS reception/transmission with the [MAIANA AIS base kit](https://shop.openmarine.net/home/15-maiana-ais-base-kit.html). The MacArthur HAT has all the features of all MAIANA AIS adapters in one. Data connection by UART0.
 - Optional compass, heel, and trim via internal or external add-on module (IMU 9DOF).
-- Compatible with dAISy HAT [3], Moitessier HAT (hacked) and Pypilot motor controllers [4]. Not compatible with Pypilot HAT. 
+- Compatible with [dAISy HAT](https://shop.openmarine.net/home/14-daisy-hat-ais-receiver.html), Moitessier HAT (hacked) and [Pypilot motor controllers](https://pypilot.org/opencart/index.php?route=product/category&path=59). Not compatible with Pypilot HAT. 
 - Detachable screw connectors for easy mounting and maximum compatibility.
 - Includes input and output LEDs to check activity at any time.
 - No drivers needed.
