@@ -4,6 +4,10 @@
 >
 > KiCad files will be released when the board is in production.
 
+> __Note__
+>
+> **Testers Wanted**: https://forum.openmarine.net/showthread.php?tid=4536
+
 ![MacArthur-HAT](images/macarthur-render.jpg)
 
 After a few years of developing software for OpenPlotter, we have identified exactly what we need in terms of hardware to achieve our goals and the result is the [**MacArthur HAT**](https://shop.openmarine.net/home/23-macarthur-hat.html) (Hardware Attached on Top), an add-on board for **Raspberry Pi 4** running OpenPlotter v3. With this HAT we want to get the fully open-source boat to free ourselves from dependence on big companies and make our boats more respectful with the environment.
