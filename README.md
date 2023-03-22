@@ -39,3 +39,13 @@ MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.rea
 - Detachable screw connectors for easy mounting and maximum compatibility.
 - Includes input and output LEDs to check activity at any time.
 - No drivers needed.
+
+[Low resolution manual](Documentation_low.pdf)
+
+[High resolution manual](Documentation.pdf)
+
+[Schematic](Schematic.pdf)
+
+[Changes](CHANGES.md)
+
+[License](LICENSE)
