@@ -7,6 +7,8 @@
 > __Note__
 >
 > **Testers Wanted**: https://forum.openmarine.net/showthread.php?tid=4536
+>
+> **Support**: https://forum.openmarine.net/forumdisplay.php?fid=29
 
 ![MacArthur-HAT](images/macarthur-render.jpg)
 
