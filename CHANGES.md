@@ -9,8 +9,8 @@
 - Changed 1-Wire ESD diodes from 5V to 3.3V.
 - Changed from 3.3K to 1K resistor to make amber LEDs brighter.
 - Tweaked a few resistor values to minimize number of different parts.
-- changed CAN termination resistor from 1/4W to 1/10W.
-- Added an extra resistor to the MOSFET controlling 12V_MAIANA to limit max voltage between gate and source. 
+- The CAN termination resistor changed from 1/10W to 1/4W.
+- Rebuilt 12V switch circuit to use MOSFET for controlling power from main 12V input to MAIANA.
 
 ## v1.0 - 2023/03/21
 
