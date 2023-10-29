@@ -1,3 +1,10 @@
+## v1.2 - 2023/10/29
+
+- upgrade to KiCad 7.
+- changed 1-Wire pull-up from 3.3k to 1.6k.
+- changed Seatalk R22 from 3.3k to 1.6k.
+- changed the RJ45 connector from through-hole to surface mount.
+
 ## v1.1 - 2023/06/17
 
 - Rebuilt Seatalk1 circuit replacing opto with a transistor to make it work in all cases.
