@@ -20,13 +20,20 @@ You can also power the *Raspberry Pi* directly from the ship's batteries and it 
 
 Some of the MacArthur HAT features, such as the power management, the AIS receiver/transponder, the **1-Wire sensors** or the **I2C internal and external sensors**, are optional. In this way you only buy what you need saving money and we do not have to manufacture things that will never be used saving natural resources.
 
-MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.readthedocs.io/en/latest/description/what_is_openplotter.html) and all of its features can be easily configured with just a few clicks. No drivers needed. If you are not using OpenPlotter, you can still access all its features, but you have to enable all interfaces and configure the system manually.
+MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) and all of its features can be easily configured with just a few clicks. No drivers needed. If you are not using OpenPlotter, you can still access all its features, but you have to enable all interfaces and configure the system manually.
+
+## Compatibility
+
+| Hardware | Software | Notes |
+| -------- | -------- |------ |
+| Raspberry Pi 3 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)                                             | NMEA 0183 inputs and outputs do not work. |
+| Raspberry Pi 4 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)<br>OpenPlotter v4.x.x (64-bit. Coming soon) |                                           |
+| Raspberry Pi 5 | OpenPlotter v4.x.x (64-bit. Coming soon)                                                                                                                            |                                           |
 
 ## Features
 
 ![MacArthur-HAT](images/macarthur-diagram.png)
 
-- Only Raspberry Pi 4 is fully supported. If you use a Raspberry Pi 3, the NMEA 0183 inputs and outputs will not work, and you will need extra separation between the Raspberry Pi and the MacArthur HAT.
 - 1x NMEA 2000 non-isolated input and output. Data connection by SPI0-1. Optional 120Ω termination resistor included. Compatible with any CAN bus.
 - 2x NMEA 0183 opto-isolated inputs and 2x NMEA 0183 non-isolated outputs. Data connection by UART3 and UART5.
 - 1x Seatalk1 non-isolated input. This connector can be also used as a general-purpose input.
