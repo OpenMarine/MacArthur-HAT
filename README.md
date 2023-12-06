@@ -6,8 +6,6 @@
 
 > __Note__
 >
-> **Testers Wanted**: https://forum.openmarine.net/showthread.php?tid=4536
->
 > **Support**: https://forum.openmarine.net/forumdisplay.php?fid=29
 
 ![MacArthur-HAT](images/macarthur-render.jpg)
@@ -18,7 +16,7 @@ This name is not accidental, we want to honor [**Ellen MacArthur**](https://en.w
 
 Its main function is to be able to communicate with any old or new marine electronic device using the proprietary and closed protocols **Seatalk1**, **NMEA 0183** or **NMEA 2000** and the free and open protocol **Signal K**. This means that when an on-board device dies, we are not forced to buy another of the same brand, that uses the same technology or even uses the same protocol because we can mix different devices. We will be able to recycle and reuse old devices giving them a second life or we will be able to gradually replace our old closed and proprietary models with new, cheaper, free and open ones.
 
-You can also power the Raspberry Pi directly from the ship's batteries and it has a **smart power management system** to turn it on and off automatically and **protect the SD card**. Power can be taken directly from the CAN or Seatalk1 bus to simplify installation. This HAT is **stackable** and can be used with other HATs such as the **Moitessier HAT** or the **dAISy HAT**. It can also be connected directly to the **MAIANA AIS transponder** without the need for an adapter.
+You can also power the *Raspberry Pi* directly from the ship's batteries and it has a **smart power management system** to turn it on and off automatically and **protect the SD card**. This HAT is **stackable** and can be used with other HATs such as the **Moitessier HAT** or the **dAISy HAT**. It can also be connected directly to the **MAIANA AIS transponder** without the need for an adapter.
 
 Some of the MacArthur HAT features, such as the power management, the AIS receiver/transponder, the **1-Wire sensors** or the **I2C internal and external sensors**, are optional. In this way you only buy what you need saving money and we do not have to manufacture things that will never be used saving natural resources.
 
@@ -31,7 +29,7 @@ MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.rea
 - Only Raspberry Pi 4 is fully supported. If you use a Raspberry Pi 3, the NMEA 0183 inputs and outputs will not work, and you will need extra separation between the Raspberry Pi and the MacArthur HAT.
 - 1x NMEA 2000 non-isolated input and output. Data connection by SPI0-1. Optional 120Ω termination resistor included. Compatible with any CAN bus.
 - 2x NMEA 0183 opto-isolated inputs and 2x NMEA 0183 non-isolated outputs. Data connection by UART3 and UART5.
-- 1x Seatalk1 opto-isolated input. This connector can be also used as an isolated general-purpose input.
+- 1x Seatalk1 non-isolated input. This connector can be also used as a general-purpose input.
 - 1x Connector for multiple 1-Wire temperature sensors such as the DS18B20 (exhaust, engine, fridge...). A 4.7KΩ pull-up resistor is included. This connector can be also used as a non-isolated general-purpose input/output.
 - 1x STEMMA QT/Qwiic connector for multiple I2C sensors (IMU, temperature, pressure, humidity, gas...). Compatible with most Adafruit and SparkFun sensors.
 - Optional 12V to 5V DC/DC converter via [add-on module](https://shop.openmarine.net/home/24-power-module-for-macarthur-hat.html) to power the Raspberry Pi and its peripherals (including touch screens up to 10 inches). When you turn off the main switch of your ship, OpenPlotter will shut down safely. OpenPlotter will start cleanly when the main switch is turned on again.
