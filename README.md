@@ -4,9 +4,15 @@
 >
 > KiCad files will be released when the board is in production.
 
-> __Note__
+> __Support__
 >
-> **Support**: https://forum.openmarine.net/forumdisplay.php?fid=29
+> https://forum.openmarine.net/forumdisplay.php?fid=29
+
+> __Buy__
+>
+> [**OpenMarine store** (Catalonia)](https://shop.openmarine.net/home/23-macarthur-hat.html)
+> 
+> [**Wegmatt store** (US)](https://shop.wegmatt.com/collections/openmarine)
 
 ![MacArthur-HAT](images/macarthur-render.jpg)
 
