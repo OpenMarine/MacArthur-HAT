@@ -10,9 +10,8 @@ After a few years of developing software for **OpenPlotter**, we have identified
 
 > __Documentation__
 >
-> [Low resolution manual](Documentation_low.pdf)
->
-> [High resolution manual](Documentation.pdf)
+> http://macarthur-hat-documentation.rtfd.io
+
 
 > __Buy__
 >
