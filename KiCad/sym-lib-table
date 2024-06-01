@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MacArthur-HAT")(type "KiCad")(uri "${KIPRJMOD}/MacArthur-HAT.kicad_sym")(options "")(descr ""))
+)

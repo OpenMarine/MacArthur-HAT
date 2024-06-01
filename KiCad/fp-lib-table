@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "MacArthur-HAT")(type "KiCad")(uri "${KIPRJMOD}/MacArthur-HAT.pretty")(options "")(descr ""))
+)
